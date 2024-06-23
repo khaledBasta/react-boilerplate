@@ -8,7 +8,7 @@ src
 +-- app               # application layer containing:
 |   |
 |   +-- routes        # application routes / can also be called pages
-    +-- app.tsx       # main application component
+    +-- App.tsx       # main application component
     +-- app-provider  # application provider that wraps the entire application with global providers
 +-- assets            # assets folder can contain all the static files such as images, fonts, etc.
 |
