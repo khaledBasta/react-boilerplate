@@ -57,6 +57,6 @@ It might not be a good idea to import across the features. Instead, compose diff
 
 The code should flow in one direction, from shared parts of the code to the application (shared -> features -> app). This is a good practice to follow as it makes the codebase more predictable and easier to understand.
 
-![Unidirectional Codebase](./assets/unidirectional-codebase.png)
+(./assets/unidirectional-codebase.png)
 
 As you can see, the shared parts can be used by any part of the codebase, but the features can only import from shared parts and the app can import from features and shared parts.
