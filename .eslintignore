@@ -1,1 +1,3 @@
 src/main.tsx
+vite-env.d.ts
+vite.config.ts

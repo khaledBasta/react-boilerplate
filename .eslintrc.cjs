@@ -29,7 +29,7 @@ module.exports = {
         // Enforce kebab-case for .ts files
         'filenames/match-regex': [
           2,
-          '^[a-z]+(-[a-z]+)*\\.[^.]*$',
+          '^[a-z]+(-[a-z]+)*$',
           {
             ignoreMiddleExtensions: true, // Ignore middle extensions in file names
           },
